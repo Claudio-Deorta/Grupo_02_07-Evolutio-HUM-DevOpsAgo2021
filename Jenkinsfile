@@ -9,7 +9,7 @@ pipeline {
 
     stage('Construccion ambiente desarrollo back') {
       steps {
-        sh 'ambiente_desarollo_back.sh'
+        sh 'ambiente_desarollo_back'
       }
     }
 
